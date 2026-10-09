@@ -1,12 +1,10 @@
 import React, { useState } from "react";
 import "./Login.css";
-import { login } from "./api/auth";
 
 function Login({ onLogin }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [selectedRole, setSelectedRole] = useState("");
-  const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
   const roles = [
@@ -42,36 +40,40 @@ function Login({ onLogin }) {
     },
   ];
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     setError("");
 
-    if (!email || !password || !selectedRole) {
+    // Frontend-only demo validation
+    if (!email.trim() || !password.trim() || !selectedRole) {
       setError("Please enter your credentials and select a role.");
       return;
     }
 
-    try {
-      setLoading(true);
+    const role = roles.find((item) => item.id === selectedRole);
 
-      const data = await login(email, password);
+    // Create a local demo user
+    const demoUser = {
+      id: "demo-user",
+      email: email.trim(),
+      name: email
+        .trim()
+        .split("@")[0]
+        .replace(/[._-]/g, " ")
+        .replace(/\b\w/g, (char) => char.toUpperCase()),
+      role: role.title,
+      roleId: role.id,
+      organization: "ESGForge Demo Organization",
+      company: "ESGForge Manufacturing & Infrastructure",
+      demo: true,
+    };
 
-      const role = roles.find((item) => item.id === selectedRole);
+    // Save login locally so refresh does not log the user out
+    localStorage.setItem("esgforge_user", JSON.stringify(demoUser));
 
-      onLogin({
-        email,
-        role: role.title,
-        roleId: role.id,
-        accessToken: data.access_token,
-        tokenType: data.token_type,
-        expiresIn: data.expires_in,
-      });
-    } catch (err) {
-      setError(err.message || "Login failed. Please check your credentials.");
-    } finally {
-      setLoading(false);
-    }
+    // Send user to App.jsx
+    onLogin(demoUser);
   };
 
   return (
@@ -81,7 +83,7 @@ function Login({ onLogin }) {
 
       <div className="login-container">
 
-        {/* Left branding section */}
+        {/* LEFT BRANDING */}
         <div className="login-brand-panel">
           <div className="brand-logo">
             <span>ESG</span>
@@ -89,7 +91,9 @@ function Login({ onLogin }) {
           </div>
 
           <div className="brand-content">
-            <p className="brand-tag">ESG INTELLIGENCE PLATFORM</p>
+            <p className="brand-tag">
+              ESG INTELLIGENCE PLATFORM
+            </p>
 
             <h1>
               Smarter ESG.
@@ -105,11 +109,11 @@ function Login({ onLogin }) {
 
           <div className="brand-footer">
             <span className="status-dot"></span>
-            Demo Environment
+            Frontend Demo Environment
           </div>
         </div>
 
-        {/* Login section */}
+        {/* LOGIN FORM */}
         <div className="login-form-panel">
           <div className="login-header">
             <h2>Welcome back</h2>
@@ -118,6 +122,7 @@ function Login({ onLogin }) {
 
           <form onSubmit={handleSubmit}>
 
+            {/* EMAIL */}
             <div className="form-group">
               <label>Email or Username</label>
 
@@ -126,10 +131,10 @@ function Login({ onLogin }) {
                 placeholder="Enter your email or username"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                disabled={loading}
               />
             </div>
 
+            {/* PASSWORD */}
             <div className="form-group">
               <label>Password</label>
 
@@ -138,10 +143,10 @@ function Login({ onLogin }) {
                 placeholder="Enter your password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                disabled={loading}
               />
             </div>
 
+            {/* ROLE */}
             <div className="role-heading">
               <div>
                 <label>Select your role</label>
@@ -158,9 +163,10 @@ function Login({ onLogin }) {
                     selectedRole === role.id ? "selected" : ""
                   }`}
                   onClick={() => setSelectedRole(role.id)}
-                  disabled={loading}
                 >
-                  <div className="role-icon">{role.icon}</div>
+                  <div className="role-icon">
+                    {role.icon}
+                  </div>
 
                   <div className="role-info">
                     <h3>{role.title}</h3>
@@ -174,26 +180,27 @@ function Login({ onLogin }) {
               ))}
             </div>
 
+            {/* ERROR */}
             {error && (
               <div className="login-error">
                 {error}
               </div>
             )}
 
+            {/* LOGIN */}
             <button
               type="submit"
               className="login-button"
-              disabled={loading}
             >
-              {loading ? "Signing in..." : "Continue to ESGForge"}
-              {!loading && <span>→</span>}
+              Continue to ESGForge
+              <span>→</span>
             </button>
 
           </form>
 
           <div className="login-security">
             <span>🔒</span>
-            Secure ESG reporting environment
+            Frontend demonstration environment
           </div>
         </div>
 
