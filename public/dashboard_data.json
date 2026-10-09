@@ -1,0 +1,542 @@
+{
+    "dashboard_cards": [
+        {
+            "Metric": "Reporting Year",
+            "Value": "2025-26"
+        },
+        {
+            "Metric": "Total ESG KPIs",
+            "Value": 15
+        },
+        {
+            "Metric": "Improving KPIs",
+            "Value": 2
+        },
+        {
+            "Metric": "Stable KPIs",
+            "Value": 7
+        },
+        {
+            "Metric": "Needs Attention KPIs",
+            "Value": 6
+        }
+    ],
+    "category_summary": [
+        {
+            "Category": "Environmental",
+            "Status": "Needs Attention",
+            "KPI_Count": 4
+        },
+        {
+            "Category": "Governance",
+            "Status": "Stable",
+            "KPI_Count": 5
+        },
+        {
+            "Category": "Social",
+            "Status": "Improving",
+            "KPI_Count": 2
+        },
+        {
+            "Category": "Social",
+            "Status": "Needs Attention",
+            "KPI_Count": 2
+        },
+        {
+            "Category": "Social",
+            "Status": "Stable",
+            "KPI_Count": 2
+        }
+    ],
+    "kpi_performance": [
+        {
+            "KPI": "Renewable Energy",
+            "Category": "Environmental",
+            "Latest Year": "2025-26",
+            "Latest Value": 34.21603081735666,
+            "Previous Year": "2024-25",
+            "Previous Value": 36.38397937532629,
+            "Change %": -5.95852513988566,
+            "Trend": "Decreasing",
+            "Status": "Needs Attention"
+        },
+        {
+            "KPI": "Water Recycling",
+            "Category": "Environmental",
+            "Latest Year": "2025-26",
+            "Latest Value": 24.6593776419609,
+            "Previous Year": "2024-25",
+            "Previous Value": 25.199820077257183,
+            "Change %": -2.144628150674894,
+            "Trend": "Decreasing",
+            "Status": "Needs Attention"
+        },
+        {
+            "KPI": "Waste Recycling",
+            "Category": "Environmental",
+            "Latest Year": "2025-26",
+            "Latest Value": 39.45364897515872,
+            "Previous Year": "2024-25",
+            "Previous Value": 41.88898863970008,
+            "Change %": -5.813794373238409,
+            "Trend": "Decreasing",
+            "Status": "Needs Attention"
+        },
+        {
+            "KPI": "Total GHG Emissions",
+            "Category": "Environmental",
+            "Latest Year": "2025-26",
+            "Latest Value": 20369.759413176376,
+            "Previous Year": "2024-25",
+            "Previous Value": 18556.35,
+            "Change %": 9.77244669978944,
+            "Trend": "Increasing",
+            "Status": "Needs Attention"
+        },
+        {
+            "KPI": "Female Workforce",
+            "Category": "Social",
+            "Latest Year": "2025-26",
+            "Latest Value": 21.814993979594,
+            "Previous Year": "2024-25",
+            "Previous Value": 20.096638083571523,
+            "Change %": 8.5504644551826,
+            "Trend": "Increasing",
+            "Status": "Improving"
+        },
+        {
+            "KPI": "Training Coverage",
+            "Category": "Social",
+            "Latest Year": "2025-26",
+            "Latest Value": 67.17083166099833,
+            "Previous Year": "2024-25",
+            "Previous Value": 66.42847420715938,
+            "Change %": 1.1175289854225503,
+            "Trend": "Stable",
+            "Status": "Stable"
+        },
+        {
+            "KPI": "Workplace Incidents",
+            "Category": "Social",
+            "Latest Year": "2025-26",
+            "Latest Value": 72.0,
+            "Previous Year": "2024-25",
+            "Previous Value": 47.0,
+            "Change %": 53.191489361702125,
+            "Trend": "Increasing",
+            "Status": "Needs Attention"
+        },
+        {
+            "KPI": "Lost Time Injuries",
+            "Category": "Social",
+            "Latest Year": "2025-26",
+            "Latest Value": 14.0,
+            "Previous Year": "2024-25",
+            "Previous Value": 8.0,
+            "Change %": 75.0,
+            "Trend": "Increasing",
+            "Status": "Needs Attention"
+        },
+        {
+            "KPI": "Fatalities",
+            "Category": "Social",
+            "Latest Year": "2025-26",
+            "Latest Value": 0.0,
+            "Previous Year": "2024-25",
+            "Previous Value": 0.0,
+            "Change %": null,
+            "Trend": "No Previous Value",
+            "Status": "No Previous Value"
+        },
+        {
+            "KPI": "Compliance Incidents",
+            "Category": "Governance",
+            "Latest Year": "2025-26",
+            "Latest Value": 21.0,
+            "Previous Year": "2024-25",
+            "Previous Value": 21.0,
+            "Change %": 0.0,
+            "Trend": "Stable",
+            "Status": "Stable"
+        },
+        {
+            "KPI": "Anti-Corruption Incidents",
+            "Category": "Governance",
+            "Latest Year": "2025-26",
+            "Latest Value": 0.0,
+            "Previous Year": "2024-25",
+            "Previous Value": 0.0,
+            "Change %": null,
+            "Trend": "No Previous Value",
+            "Status": "No Previous Value"
+        },
+        {
+            "KPI": "Data Privacy Incidents",
+            "Category": "Governance",
+            "Latest Year": "2025-26",
+            "Latest Value": 0.0,
+            "Previous Year": "2024-25",
+            "Previous Value": 0.0,
+            "Change %": null,
+            "Trend": "No Previous Value",
+            "Status": "No Previous Value"
+        },
+        {
+            "KPI": "Ethics Incidents",
+            "Category": "Governance",
+            "Latest Year": "2025-26",
+            "Latest Value": 0.0,
+            "Previous Year": "2024-25",
+            "Previous Value": 0.0,
+            "Change %": null,
+            "Trend": "No Previous Value",
+            "Status": "No Previous Value"
+        },
+        {
+            "KPI": "Grievance Resolution",
+            "Category": "Governance",
+            "Latest Year": "2025-26",
+            "Latest Value": 81.90045248868778,
+            "Previous Year": "2024-25",
+            "Previous Value": 80.5668016194332,
+            "Change %": 1.6553355010345656,
+            "Trend": "Stable",
+            "Status": "Stable"
+        }
+    ],
+    "insights": [
+        {
+            "Category": "Environmental",
+            "KPI": "Renewable Energy",
+            "Status": "Needs Attention",
+            "Trend": "Decreasing",
+            "Change %": -5.95852513988566,
+            "Insight": "Renewable energy utilization decreased by 5.96% compared with the previous financial year."
+        },
+        {
+            "Category": "Environmental",
+            "KPI": "Water Recycling",
+            "Status": "Needs Attention",
+            "Trend": "Decreasing",
+            "Change %": -2.144628150674894,
+            "Insight": "Water recycling performance decreased by 2.14% compared with the previous financial year."
+        },
+        {
+            "Category": "Environmental",
+            "KPI": "Waste Recycling",
+            "Status": "Needs Attention",
+            "Trend": "Decreasing",
+            "Change %": -5.813794373238409,
+            "Insight": "Waste recycling performance decreased by 5.81% compared with the previous financial year."
+        },
+        {
+            "Category": "Environmental",
+            "KPI": "GHG Emissions",
+            "Status": "Needs Attention",
+            "Trend": "Increasing",
+            "Change %": 9.77244669978944,
+            "Insight": "Total GHG emissions increased by 9.77% compared with the previous financial year."
+        },
+        {
+            "Category": "Social",
+            "KPI": "Total Employees",
+            "Status": "Improving",
+            "Trend": "Increasing",
+            "Change %": 7.388503243954449,
+            "Insight": "Total employee count increased by 7.39% compared with the previous financial year."
+        },
+        {
+            "Category": "Social",
+            "KPI": "Female Workforce",
+            "Status": "Improving",
+            "Trend": "Increasing",
+            "Change %": 8.5504644551826,
+            "Insight": "Female workforce representation increased by 8.55% compared with the previous financial year."
+        },
+        {
+            "Category": "Social",
+            "KPI": "Training Coverage",
+            "Status": "Stable",
+            "Trend": "Stable",
+            "Change %": 1.1175289854225503,
+            "Insight": "Training coverage remained relatively stable."
+        },
+        {
+            "Category": "Social",
+            "KPI": "Workplace Incidents",
+            "Status": "Needs Attention",
+            "Trend": "Increasing",
+            "Change %": 53.191489361702125,
+            "Insight": "Workplace incidents increased by 53.19% compared with the previous financial year."
+        },
+        {
+            "Category": "Social",
+            "KPI": "Lost Time Injuries",
+            "Status": "Needs Attention",
+            "Trend": "Increasing",
+            "Change %": 75.0,
+            "Insight": "Lost-time injuries increased by 75.00% compared with the previous financial year."
+        },
+        {
+            "Category": "Social",
+            "KPI": "Fatalities",
+            "Status": "Stable",
+            "Trend": "No Previous Value",
+            "Change %": null,
+            "Insight": "Fatalities does not have sufficient data for year-on-year comparison."
+        },
+        {
+            "Category": "Governance",
+            "KPI": "Compliance Incidents",
+            "Status": "Stable",
+            "Trend": "Stable",
+            "Change %": 0.0,
+            "Insight": "Compliance incidents remained relatively stable."
+        },
+        {
+            "Category": "Governance",
+            "KPI": "Anti-Corruption Incidents",
+            "Status": "Stable",
+            "Trend": "No Previous Value",
+            "Change %": null,
+            "Insight": "Anti-Corruption Incidents does not have sufficient data for year-on-year comparison."
+        },
+        {
+            "Category": "Governance",
+            "KPI": "Data Privacy Incidents",
+            "Status": "Stable",
+            "Trend": "No Previous Value",
+            "Change %": null,
+            "Insight": "Data Privacy Incidents does not have sufficient data for year-on-year comparison."
+        },
+        {
+            "Category": "Governance",
+            "KPI": "Ethics Incidents",
+            "Status": "Stable",
+            "Trend": "No Previous Value",
+            "Change %": null,
+            "Insight": "Ethics Incidents does not have sufficient data for year-on-year comparison."
+        },
+        {
+            "Category": "Governance",
+            "KPI": "Grievance Resolution",
+            "Status": "Stable",
+            "Trend": "Stable",
+            "Change %": 1.6553355010345656,
+            "Insight": "Grievance resolution performance remained relatively stable."
+        }
+    ],
+    "attention_areas": [
+        {
+            "Category": "Environmental",
+            "KPI": "Renewable Energy",
+            "Status": "Needs Attention",
+            "Trend": "Decreasing",
+            "Change %": -5.95852513988566,
+            "Insight": "Renewable energy utilization decreased by 5.96% compared with the previous financial year."
+        },
+        {
+            "Category": "Environmental",
+            "KPI": "Water Recycling",
+            "Status": "Needs Attention",
+            "Trend": "Decreasing",
+            "Change %": -2.144628150674894,
+            "Insight": "Water recycling performance decreased by 2.14% compared with the previous financial year."
+        },
+        {
+            "Category": "Environmental",
+            "KPI": "Waste Recycling",
+            "Status": "Needs Attention",
+            "Trend": "Decreasing",
+            "Change %": -5.813794373238409,
+            "Insight": "Waste recycling performance decreased by 5.81% compared with the previous financial year."
+        },
+        {
+            "Category": "Environmental",
+            "KPI": "GHG Emissions",
+            "Status": "Needs Attention",
+            "Trend": "Increasing",
+            "Change %": 9.77244669978944,
+            "Insight": "Total GHG emissions increased by 9.77% compared with the previous financial year."
+        },
+        {
+            "Category": "Social",
+            "KPI": "Workplace Incidents",
+            "Status": "Needs Attention",
+            "Trend": "Increasing",
+            "Change %": 53.191489361702125,
+            "Insight": "Workplace incidents increased by 53.19% compared with the previous financial year."
+        },
+        {
+            "Category": "Social",
+            "KPI": "Lost Time Injuries",
+            "Status": "Needs Attention",
+            "Trend": "Increasing",
+            "Change %": 75.0,
+            "Insight": "Lost-time injuries increased by 75.00% compared with the previous financial year."
+        }
+    ],
+    "environmental_trends": [
+        {
+            "financial_year": "2022-23",
+            "energy_consumption_kwh": 29428858.05485262,
+            "renewable_energy_consumption_kwh": 10339936.56,
+            "water_withdrawal_kl": 790139.19,
+            "water_recycled_reused_kl": 199919.19,
+            "total_waste_generated_mt": 13227.4,
+            "waste_recycled_mt": 5423.32,
+            "calculated_total_ghg_tco2e": 19387.41153246958
+        },
+        {
+            "financial_year": "2023-24",
+            "energy_consumption_kwh": 31806939.11333481,
+            "renewable_energy_consumption_kwh": 10849502.29,
+            "water_withdrawal_kl": 903998.3306605978,
+            "water_recycled_reused_kl": 221955.17,
+            "total_waste_generated_mt": 13407.91,
+            "waste_recycled_mt": 5444.18,
+            "calculated_total_ghg_tco2e": 19274.63860604146
+        },
+        {
+            "financial_year": "2024-25",
+            "energy_consumption_kwh": 29949587.97,
+            "renewable_energy_consumption_kwh": 10896851.91,
+            "water_withdrawal_kl": 950200.7128062886,
+            "water_recycled_reused_kl": 239448.87,
+            "total_waste_generated_mt": 14168.64,
+            "waste_recycled_mt": 5935.1,
+            "calculated_total_ghg_tco2e": 18556.35
+        },
+        {
+            "financial_year": "2025-26",
+            "energy_consumption_kwh": 31835890.75,
+            "renewable_energy_consumption_kwh": 10892978.19,
+            "water_withdrawal_kl": 883896.03,
+            "water_recycled_reused_kl": 217963.26,
+            "total_waste_generated_mt": 14142.19,
+            "waste_recycled_mt": 5579.61,
+            "calculated_total_ghg_tco2e": 20369.759413176376
+        }
+    ],
+    "social_trends": [
+        {
+            "financial_year": "2022-23",
+            "total_employees": 41615,
+            "female_employees": 9803,
+            "employees_trained": 27699.0,
+            "workplace_incidents": 78,
+            "lost_time_injuries": 22,
+            "fatalities": 0
+        },
+        {
+            "financial_year": "2023-24",
+            "total_employees": 42475,
+            "female_employees": 8414,
+            "employees_trained": 28858.0,
+            "workplace_incidents": 88,
+            "lost_time_injuries": 30,
+            "fatalities": 0
+        },
+        {
+            "financial_year": "2024-25",
+            "total_employees": 44082,
+            "female_employees": 8859,
+            "employees_trained": 29283.0,
+            "workplace_incidents": 47,
+            "lost_time_injuries": 8,
+            "fatalities": 0
+        },
+        {
+            "financial_year": "2025-26",
+            "total_employees": 47339,
+            "female_employees": 10327,
+            "employees_trained": 31798.0,
+            "workplace_incidents": 72,
+            "lost_time_injuries": 14,
+            "fatalities": 0
+        }
+    ],
+    "governance_trends": [
+        {
+            "financial_year": "2022-23",
+            "compliance_incidents": 20.0,
+            "anti_corruption_incidents": 0,
+            "data_privacy_incidents": 0,
+            "ethics_incidents": 0,
+            "grievances_received": 211,
+            "grievances_resolved": 171,
+            "grievance_resolution_pct": 81.04265402843602
+        },
+        {
+            "financial_year": "2023-24",
+            "compliance_incidents": 17.0,
+            "anti_corruption_incidents": 0,
+            "data_privacy_incidents": 0,
+            "ethics_incidents": 0,
+            "grievances_received": 188,
+            "grievances_resolved": 156,
+            "grievance_resolution_pct": 82.97872340425532
+        },
+        {
+            "financial_year": "2024-25",
+            "compliance_incidents": 21.0,
+            "anti_corruption_incidents": 0,
+            "data_privacy_incidents": 0,
+            "ethics_incidents": 0,
+            "grievances_received": 247,
+            "grievances_resolved": 199,
+            "grievance_resolution_pct": 80.5668016194332
+        },
+        {
+            "financial_year": "2025-26",
+            "compliance_incidents": 21.0,
+            "anti_corruption_incidents": 0,
+            "data_privacy_incidents": 0,
+            "ethics_incidents": 0,
+            "grievances_received": 221,
+            "grievances_resolved": 181,
+            "grievance_resolution_pct": 81.90045248868778
+        }
+    ],
+    "status_distribution": [
+        {
+            "Category": "Environmental",
+            "Status": "Needs Attention",
+            "KPI_Count": 4
+        },
+        {
+            "Category": "Governance",
+            "Status": "Stable",
+            "KPI_Count": 5
+        },
+        {
+            "Category": "Social",
+            "Status": "Improving",
+            "KPI_Count": 2
+        },
+        {
+            "Category": "Social",
+            "Status": "Needs Attention",
+            "KPI_Count": 2
+        },
+        {
+            "Category": "Social",
+            "Status": "Stable",
+            "KPI_Count": 2
+        }
+    ],
+    "overall_status": [
+        {
+            "Status": "Stable",
+            "KPI_Count": 7
+        },
+        {
+            "Status": "Needs Attention",
+            "KPI_Count": 6
+        },
+        {
+            "Status": "Improving",
+            "KPI_Count": 2
+        }
+    ]
+}
